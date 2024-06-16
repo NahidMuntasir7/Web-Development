@@ -1,0 +1,11 @@
+#one {
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: lowercase;
+}
+#two {
+    font-size: 15px;
+}
+#three {
+    font-size: 10px;
+}

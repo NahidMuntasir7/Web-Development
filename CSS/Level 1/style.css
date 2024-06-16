@@ -1,0 +1,28 @@
+*{
+    color:aqua;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color:blueviolet;
+}
+
+button{
+    color:white;
+    background-color: red;
+}
+
+body{
+    background-color:black;
+}
+
+#headingOne{
+    color:chartreuse;
+}
+
+.myClass{
+    color:darkgoldenrod;
+}
