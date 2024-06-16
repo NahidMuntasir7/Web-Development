@@ -1,0 +1,17 @@
+div {
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1 {
+    background-image: url("cat_foto.jpg");
+    background-size: cover; /* to fit */
+}
+
+/* body {
+    background-image: url("cat_foto.jpg");
+    background-size: cover;
+} */

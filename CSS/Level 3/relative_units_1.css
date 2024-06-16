@@ -1,0 +1,21 @@
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#box2 {
+    height: 50px;
+    /* width: 50px; */
+    width: 30%; /*parent width er sapekkhe*/
+    background-color: yellow;
+    margin-left: 10%; /* parent width er sapekkhe */
+    font-size: 2em; /* 2 times of parents size */
+    /* width: 5em; em mane parent text er sapekkhe*/
+    width: 5rem; /*rem mane outer level(hello) er sapekkhe*/
+    /*
+    height: 100vh;
+    weight: 50vw; ?
+    */
+}

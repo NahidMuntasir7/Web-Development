@@ -1,0 +1,41 @@
+div {
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#box1{
+    position: static;  /* static e position not changable*/
+}  
+#box2{
+    position: relative; /*je position e ache tar sapekkhe*/
+    top: 10px;
+    left: 10px;
+}
+/* #box3{
+    position: absolute; ancestor body tag er sapekkhe
+    top: 0px;
+    left: 20px;
+} */
+
+#box3 {
+    position: sticky;
+    top: 0px;
+    left: 20px;
+}
+
+/* #box4{
+    position: fixed; page er sapekkhe(removed from flow)
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+} */
+
+#box4{
+    position: fixed; 
+    /* right: 0; */
+    top: 0;
+}
