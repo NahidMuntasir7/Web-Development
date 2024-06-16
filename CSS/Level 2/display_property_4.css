@@ -1,0 +1,50 @@
+/* setting block element div to inline
+and inline element button to block */
+
+/* (1) 
+div{
+    background-color: pink;
+    display: inline;
+}
+button{
+    display: block;
+} */
+
+
+/* (2)
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;  sudhu inline thakle sob property change kora jay na
+}
+
+#box2 {
+    display: none; no space will be taken
+} 
+ 
+#box2 {
+    visibility: hidden; space will be taken
+}   */
+
+
+/* alpha channel */
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+}
+
+#box1 {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#box2 {
+    background-color: rgba(0, 0, 255, 0.75);
+}
+#box3 {
+    background-color: rgba(0, 0, 255, 1);
+}

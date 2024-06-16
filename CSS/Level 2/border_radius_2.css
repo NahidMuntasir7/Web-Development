@@ -1,0 +1,46 @@
+/* for curved corner
+div {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius: 20px;
+} */
+
+/* for circle
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    border-radius: 50%;
+} */
+
+
+/* padding and margin*/
+
+div {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    border: 2px solid brown;
+    /* border-radius: 20px; */
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    /* shorthand
+    padding: 50px;  all side same 50px
+    padding: 1px 2px 3px 4px; clockwise */
+
+    /* margin */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* shorthand 
+    margin: 50px;  all side same 50px
+    margin: 1px 2px 3px 4px; clockwise 
+    */
+
+}
+
+

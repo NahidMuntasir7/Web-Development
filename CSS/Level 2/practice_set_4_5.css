@@ -1,0 +1,49 @@
+/* old navbar */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    height: 60px;
+    color:white;
+    background-color: #0f1111;
+}
+
+button {
+    background-color: #f08804;
+    color:white;
+}
+/* input{
+    margin-left: 200px;
+} */
+
+#logo {
+    margin-left: 2px;
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 160px;
+    text-decoration: none;
+    color:white;
+}
+
+/* new code */
+.contentBox {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block
+}
+
+#content {
+    height: 505px;
+}
+
+footer {
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}
