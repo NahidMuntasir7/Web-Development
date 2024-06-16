@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row; /* row row reverse column column reverse */
+    justify-content: center; /*flex start center flex end space around space between space evenly*/
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: flex-start */
+}
+
+#box1 {
+    background-color: aqua;
+    flex-grow: 1;
+}
+#box2 {
+    background-color: pink;
+    height: 200px;
+    /*flex-shrink: 2; 0.5 / 0*/
+    flex-grow: 2;
+}
+#box3 {
+    background-color: darkkhaki;
+    height: 75px;
+}
+#box4 {
+    background-color: indianred;
+}
+#box5 {
+    background-color: slateblue;
+    /* align-self: flex-end; */
+}
